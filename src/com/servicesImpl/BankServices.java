@@ -138,7 +138,7 @@ public class BankServices implements Services{
 		System.out.println("fund transfered current details..");
 		try {
 			dao.showAcc(accNo1);
-			dao.showAcc(accNo1);
+			dao.showAcc(accNo2);
 		} catch (SQLException e) {
 			// wrapper exception
 		    throw new ServiceNotAvailableException(); 
